@@ -7,5 +7,11 @@ public class Main {
         cat.makeSound();
         System.out.println();
         dog.makeSound();
+        dog.eat("Cockroach");
+        cat.eat("Smelly tuna");
+        
     }
+
+
+
 }
