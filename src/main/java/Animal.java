@@ -16,4 +16,5 @@ public abstract class Animal {
     public void mood (Boolean humør) {
 
     }
+    public abstract void jump(double distance);
 }
