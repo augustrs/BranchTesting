@@ -3,7 +3,7 @@ public class Main {
         Dog dog = new Dog("Walter");
         Cat cat = new Cat("Mis");
 
-
+        System.out.println("The sounds of the animals:");
         cat.makeSound();
         System.out.println();
         dog.makeSound();
