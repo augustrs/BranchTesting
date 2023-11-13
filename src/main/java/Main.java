@@ -18,7 +18,7 @@ public class Main {
         dog.mood(true);
         dog.mood(false);
 
-
+        System.out.println("Stash implemented");
     }
 
 
