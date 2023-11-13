@@ -13,4 +13,14 @@ public class Dog extends Animal {
     public boolean eat(String foodType) {
         return super.eat(foodType);
     }
+
+    @Override
+    public void mood(Boolean humør) {
+        super.mood(humør);
+        if (humør) {
+            System.out.println("Logrer");
+        } else {
+            System.out.println("Knurrer");
+        }
+    }
 }
