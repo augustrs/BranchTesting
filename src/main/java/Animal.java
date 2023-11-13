@@ -8,4 +8,7 @@ public abstract class Animal {
     public void makeSound() {
         System.out.println("This animal says: ");
     }
+    public boolean eat(String foodType) {
+        return true;
+    }
 }

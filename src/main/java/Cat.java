@@ -8,4 +8,9 @@ public class Cat extends Animal{
         super.makeSound();
         System.out.println("Meow!");
     }
+
+    @Override
+    public boolean eat(String foodType) {
+        return super.eat(foodType);
+    }
 }
