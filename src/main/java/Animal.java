@@ -4,4 +4,8 @@ public class Animal {
     public Animal() {
         this.name=name;
     }
+
+    public void makeSound() {
+        System.out.println("This animal says: ");
+    }
 }
