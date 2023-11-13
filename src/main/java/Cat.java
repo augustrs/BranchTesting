@@ -18,9 +18,9 @@ public class Cat extends Animal{
     public void mood(Boolean humør) {
         super.mood(humør);
         if (humør) {
-            System.out.println("Spinder");
+            System.out.println("Katten spinder");
         } else {
-            System.out.println("Hvæser");
+            System.out.println("Katten hvæser");
         }
     }
 }

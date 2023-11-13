@@ -18,9 +18,9 @@ public class Dog extends Animal {
     public void mood(Boolean humør) {
         super.mood(humør);
         if (humør) {
-            System.out.println("Logrer");
+            System.out.println("Hunden logrer med halen");
         } else {
-            System.out.println("Knurrer");
+            System.out.println("Hunden knurrer");
         }
     }
 }

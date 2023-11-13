@@ -9,9 +9,17 @@ public class Main {
         dog.makeSound();
         dog.eat("Cockroach");
         cat.eat("Smelly tuna");
-        
-    }
 
+        System.out.println("Kattens humør: \n");
+        cat.mood(true);
+        cat.mood(false);
+
+        System.out.println("\nHundens humør: \n");
+        dog.mood(true);
+        dog.mood(false);
+
+
+    }
 
 
 }
